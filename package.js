@@ -14,6 +14,6 @@ Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
 
   // Load crypto-md5 on the **server** only
-  api.use('jparker:crypto-md5', 'server');
+  api.use('jparker:crypto-md5@0.1.1', 'server');
   api.imply('jparker:crypto-md5', 'server');
 });
